@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/印度支付", "destination": "/印度支付.html" },
+    { "source": "/%E5%8D%B0%E5%BA%A6%E6%94%AF%E4%BB%98", "destination": "/印度支付.html" }
+  ]
+}
