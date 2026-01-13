@@ -1,6 +1,14 @@
 {
-  "rewrites": [
-    { "source": "/印度支付", "destination": "/印度支付.html" },
-    { "source": "/常见问题", "destination": "/常见问题.html" }
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/%E5%8D%B0%E5%BA%A6%E6%94%AF%E4%BB%98.html",
+      "dest": "/india-payment.html"
+    },
+    {
+      "src": "/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.html",
+      "dest": "/faq.html"
+    }
   ]
 }
